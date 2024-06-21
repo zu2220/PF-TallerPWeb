@@ -3,8 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/RL_Proyecto_TallerPWeb/AvanceMejorado/AvanceMejorado/html/Catalogo.php</file>
-            <file>file:/C:/xampp/htdocs/RL_Proyecto_TallerPWeb/AvanceMejorado/AvanceMejorado/php/Captura_Datos_Cbx.php</file>
+            <file>file:/D:/Programas/xampp/htdocs/RL-PF-TallerWeb/AvanceMejorado/php/BaseDeDatos/send2.php</file>
+            <file>file:/D:/Programas/xampp/htdocs/RL-PF-TallerWeb/AvanceMejorado/php/BaseDeDatos/conexion2.php</file>
+            <file>file:/D:/Programas/xampp/htdocs/RL-PF-TallerWeb/AvanceMejorado/html/Catalogo.php</file>
+            <file>file:/D:/Programas/xampp/htdocs/RL-PF-TallerWeb/AvanceMejorado/php/Clases/ClaseCatalogo.php</file>
+            <file>file:/D:/Programas/xampp/htdocs/RL-PF-TallerWeb/AvanceMejorado/php/Clases/Libro.php</file>
         </group>
     </open-files>
 </project-private>
