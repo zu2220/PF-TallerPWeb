@@ -1,0 +1,110 @@
+.grid{
+
+    width: 70%;
+    border: 1px solid;
+    box-shadow: 7px 8px 9px rgb(8, 12, 255);
+    border-radius: 15px;
+}
+.foto{
+    transition: transform 1s;
+				
+				
+}
+img:hover{
+    transform: scale(2);
+    
+}
+
+.foto:hover{
+    transform: rotate(360deg);
+}
+
+header{ /*va a contener el menu */
+    position: relative;
+    width: 100%;
+    margin-top: 0px; 
+    display :flex; /* ñps objetos se organizen en forma horizontal*/
+    background-color: #292929;
+
+
+   }
+   nav{ 
+    /*el menu*/
+    float :left; /* que los item se ajusten hacia la izquerda*/
+    }
+   nav ul{
+    list-style: none;  
+    /* desactivar la orientacion vertical */
+   overflow: hidden;
+}
+nav ul li{ /* cada elemento de la lista*/
+    float:left;	
+    padding:  10px 50px;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    } 
+     nav ul li a { /* los vimculos ligados a cada opcion */
+     display: block; /* ajustar el tamaño de cada item , como bloque */
+     text-decoration: none; /* quite los subrayados de las refrencias*/
+     color :#fff;
+     padding: 10px;         
+     }
+   nav ul li:hover{
+       background: #eca023;
+   }
+   
+
+
+   /*---------------*/
+   .ulclass{
+    /*background: #ECECEC;*/
+  
+    width: 100%;
+    /*position: fixed;*/
+}
+
+
+ul, li {
+list-style: none;
+
+
+}
+
+.ulclass li a {
+    /*background-color: rgba(0,0,0,0.7);*/
+
+    display: block;
+    color: white;
+    background:#0acd89;
+    text-decoration: none;
+    padding: 6px 8px;
+    
+    font-size: 15px;
+}
+
+.ulclass > li {
+    float: left;
+}
+
+.ulclass li a:hover{
+    /*background-color: #eca023;*/
+    /*display: block;*/
+    background: #eca023;
+    color: #7B1C1C;
+}
+
+.ulclass li ul{
+    display:none;
+    position: absolute;
+    min-width: 40px;
+}
+.ulclass li:hover > ul {
+    display: block;
+}
+
+#tablaLibros td {
+    text-align: center; /* Alinea el contenido horizontalmente en el centro */
+}
+
+
+
