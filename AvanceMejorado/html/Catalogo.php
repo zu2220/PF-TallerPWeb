@@ -28,19 +28,23 @@
 
         <h1>Catalogo</h1>
 
-<form name="frBusquedaLibro">
+<form name="frBusquedaLibro" method="post">
     <table>
         <tr>
             <td><input type="text" id="txtNombreLibro" size="35" title="Ingrese el nombre del libro" placeholder="Ingrese el nombre del libro"></td>
-            <td><select name="cbxTipoLibro" onclick="capturarCbx()">
-            <option value="1">Aventura</option>
-            <option value="2" selected>Fantasia</option>
+            <td><select name="cbxTipoLibro" id="cbxTipoLibro">
+            <option value="Aventura">Aventura</option>
+            <option value="Fantasia" selected>Fantasia</option>
             </select>
             </td>
             <td><input type="text" id="txtNombreAutor" size="35" title="Ingresar el nombre del autor" placeholder="Ingresar el nombre del autor"></td>
-            <td><input type="button" value="Buscar" style="height: 30px; width: 62px; font-size: 14px; cursor: pointer" onclick="buscarLibro();"></td>
+            <td><input type="submit" value="Buscar" style="height: 30px; width: 62px; font-size: 14px; cursor: pointer" onclick="buscarLibro();"></td>
         </tr>
     </table>
+    <?php
+    
+    ?>
+    <!--
 </form>
 
 <table border="0" cellpadding="60" id="tablaLibros">
@@ -238,8 +242,9 @@
             <p>Autor: Vallejo, José Miguel</p>
         </td>
     </tr>
+    
 </table>
-
+-->
 <button onclick="color(1)">Modo Oscuro</button>
 <button onclick="color(2)">Color por defecto</button>
 
@@ -254,7 +259,7 @@
                 document.fgColor='#17202A';
             }
         }
-
+/*
          function buscarLibro() {
     var nombreLibro = document.getElementById('txtNombreLibro').value.toUpperCase();
     var tipoLibro = document.getElementById('txtTipoLibro').value.toUpperCase();
@@ -274,11 +279,12 @@
             libro.style.display = "none";
         }
     }
-}
+}*/
     </script>
 </center>
-
-
+ <?php
+     include ("../php/BaseDeDatos/send2.php");
+     ?>
 </body>
 </html>
 
